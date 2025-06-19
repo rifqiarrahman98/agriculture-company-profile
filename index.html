@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agriculture Company Profile</title>
-    <!-- Bootstrap CSS CDN -->
+    <title>PT. Bulindo Argo Teknologi</title>
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -14,9 +14,9 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm">
         <div class="container">
-            <a class="navbar-brand" href="#">Agriculture Company</a>
+            <a class="navbar-brand fw-bold" href="#">PT. Bulindo Argo Teknologi</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,7 +26,7 @@
                     <li class="nav-item"><a class="nav-link active" href="#about">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="article.html">Article</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -34,76 +34,93 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero d-flex align-items-center" style="min-height: 60vh;">
+    <section class="hero d-flex align-items-center">
         <div class="container text-center">
-            <h1 class="display-4 fw-bold">Innovating Agriculture for a Better Tomorrow</h1>
-            <p class="lead">Providing sustainable solutions for modern farming</p>
-            <a href="#contact" class="btn btn-success btn-lg mt-3">Get in Touch</a>
+            <h1 class="display-4 fw-bold mb-3">Harvesting Innovation, Growing the Future</h1>
+            <p class="lead mb-4">Empowering agriculture with sustainable technology and expertise.</p>
+            <a href="#contact" class="btn btn-success btn-lg px-5">Contact Us</a>
         </div>
     </section>
 
     <!-- About Us Section -->
-    <section id="about" class="py-5">
+    <section id="about" class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center mb-4">About Us</h2>
-            <p class="text-center">We are a leading agriculture company dedicated to providing innovative and sustainable solutions for modern farming. Our mission is to empower farmers and improve agricultural practices worldwide.</p>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <p class="text-center fs-5">
+                        PT. Bulindo Argo Teknologi is dedicated to advancing Indonesia's agriculture sector through sustainable practices, modern technology, and expert support. Our mission is to help farmers achieve higher yields, better quality, and a greener future.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="py-5 bg-light">
+    <section id="services" class="py-5">
         <div class="container">
             <h2 class="text-center mb-4">Our Services</h2>
             <div class="row g-4">
-                <div class="col-md-4 text-center">
-                    <i class="fas fa-seedling fa-3x text-success mb-3"></i>
-                    <h5>Crop Management</h5>
-                    <p>We provide advanced crop management solutions to maximize yields and ensure sustainability.</p>
+                <div class="col-md-4">
+                    <div class="card service-card h-100 text-center border-0 shadow-sm">
+                        <div class="card-body">
+                            <i class="fas fa-seedling fa-3x mb-3 text-gold"></i>
+                            <h5 class="card-title">Crop Management</h5>
+                            <p class="card-text">Advanced crop planning, monitoring, and support for optimal harvests.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4 text-center">
-                    <i class="fas fa-tractor fa-3x text-success mb-3"></i>
-                    <h5>Modern Equipment</h5>
-                    <p>Our state-of-the-art farming equipment helps farmers achieve efficiency and productivity.</p>
+                <div class="col-md-4">
+                    <div class="card service-card h-100 text-center border-0 shadow-sm">
+                        <div class="card-body">
+                            <i class="fas fa-tractor fa-3x mb-3 text-gold"></i>
+                            <h5 class="card-title">Modern Equipment</h5>
+                            <p class="card-text">Supplying and maintaining the latest agricultural machinery and tools.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4 text-center">
-                    <i class="fas fa-leaf fa-3x text-success mb-3"></i>
-                    <h5>Eco-Friendly Practices</h5>
-                    <p>We promote eco-friendly farming practices to protect the environment and ensure sustainability.</p>
+                <div class="col-md-4">
+                    <div class="card service-card h-100 text-center border-0 shadow-sm">
+                        <div class="card-body">
+                            <i class="fas fa-leaf fa-3x mb-3 text-gold"></i>
+                            <h5 class="card-title">Eco-Friendly Solutions</h5>
+                            <p class="card-text">Promoting sustainable and environmentally friendly farming practices.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="py-5">
+    <section id="projects" class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center mb-4">Our Projects</h2>
             <div class="row g-4">
                 <div class="col-md-4">
-                    <div class="card">
-                        <img src="images/project1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://via.placeholder.com/400x220/2d4c2a/fff?text=Sustainable+Farming" class="card-img-top" alt="Sustainable Farming">
                         <div class="card-body">
-                            <h5 class="card-title">Sustainable Farming</h5>
-                            <p class="card-text">A project focused on implementing sustainable farming practices.</p>
+                            <h5 class="card-title text-gold">Sustainable Farming</h5>
+                            <p class="card-text">Implementing eco-friendly farming methods for long-term productivity.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
-                        <img src="images/project2.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://via.placeholder.com/400x220/2d4c2a/fff?text=Smart+Irrigation" class="card-img-top" alt="Smart Irrigation">
                         <div class="card-body">
-                            <h5 class="card-title">Smart Irrigation</h5>
-                            <p class="card-text">Innovative irrigation systems to optimize water usage.</p>
+                            <h5 class="card-title text-gold">Smart Irrigation</h5>
+                            <p class="card-text">Deploying technology to optimize water use and boost yields.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
-                        <!-- Placeholder image -->
-                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Project Placeholder">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://via.placeholder.com/400x220/2d4c2a/fff?text=Organic+Farming" class="card-img-top" alt="Organic Farming">
                         <div class="card-body">
-                            <h5 class="card-title">Organic Farming</h5>
-                            <p class="card-text">Promoting organic farming methods for healthier crops.</p>
+                            <h5 class="card-title text-gold">Organic Farming</h5>
+                            <p class="card-text">Supporting organic agriculture for healthier crops and communities.</p>
                         </div>
                     </div>
                 </div>
@@ -111,32 +128,10 @@
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-4">What Our Clients Say</h2>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="testimonial">
-                        <p>"The team at Agriculture Company transformed our farming practices. Highly recommend!"</p>
-                        <h5>- John Doe</h5>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="testimonial">
-                        <p>"Innovative solutions and excellent support. Our yields have never been better."</p>
-                        <h5>- Jane Smith</h5>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="testimonial">
-                        <p>"A true partner in sustainable agriculture. Thank you for your guidance!"</p>
-                        <h5>- Michael Brown</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- WhatsApp Floating Icon -->
+    <a href="https://wa.me/6281234567890" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
     <!-- Contact Section -->
     <section id="contact" class="py-5">
@@ -155,25 +150,17 @@
                     <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
                 </div>
                 <div class="text-center mt-4">
-                    <button type="submit" class="btn btn-success btn-lg">Send Message</button>
+                    <button type="submit" class="btn btn-success btn-lg px-5">Send Message</button>
                 </div>
             </form>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
+    <footer class="bg-success text-white text-center py-3 mt-5">
         <div class="container">
-            &copy; 2025 Agriculture Company. All rights reserved.
+            &copy; 2025 PT. Bulindo Argo Teknologi. All rights reserved.
         </div>
     </footer>
-    
-    <!-- Floating WhatsApp Icon -->
-    <a href="https://wa.me/6281234567890" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
-    <i class="fab fa-whatsapp"></i>
-    </a>
-
-    <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

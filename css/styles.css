@@ -1,78 +1,77 @@
-/* General Styles */
 body {
     font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f8f9fa;
+    color: #2d4c2a;
 }
 
-/* Navbar */
-.navbar {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.bg-success, .navbar, footer {
+    background: #2d4c2a !important;
 }
 
-/* Hero Section */
+.navbar-brand, .nav-link, .footer, .btn-success {
+    font-weight: 700;
+}
+
+.nav-link.active, .nav-link:hover {
+    color: #bfa14a !important;
+}
+
 .hero {
-    background: linear-gradient(to right, #28a745, #218838);
-    color: white;
+    background: linear-gradient(90deg, #2d4c2a 60%, #bfa14a 100%);
+    color: #fff;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 4rem 0;
-    text-align: center;
-    animation: fadeIn 1.5s ease-in-out;
 }
 
 .hero h1 {
+    color: #fff;
     font-size: 3rem;
     font-weight: 700;
 }
 
-.hero p {
-    font-size: 1.25rem;
-    margin-bottom: 1.5rem;
-}
-
 .hero .btn-success {
-    padding: 0.75rem 2rem;
-    font-size: 1.2rem;
-    border-radius: 50px;
-    transition: transform 0.3s ease;
+    background: #bfa14a;
+    color: #2d4c2a;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    transition: background 0.3s, color 0.3s;
 }
 
 .hero .btn-success:hover {
-    transform: scale(1.1);
+    background: #fff;
+    color: #2d4c2a;
 }
 
-/* Testimonials Section */
-#testimonials {
-    background-color: #fff;
-    padding: 4rem 0;
+h2 {
+    color: #2d4c2a;
+    font-weight: 700;
 }
 
-.testimonial {
-    background: #f8f9fa;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.text-gold {
+    color: #bfa14a !important;
 }
 
-.testimonial:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+.card-title {
+    font-weight: 700;
 }
 
-.testimonial h5 {
-    font-weight: bold;
-    margin-top: 1rem;
+.card {
+    border-radius: 16px;
 }
 
-/* Footer */
+.service-card i {
+    color: #bfa14a;
+}
+
 footer {
-    background-color: #333;
-    color: white;
-    padding: 1.5rem 0;
-    text-align: center;
+    background: #2d4c2a !important;
+    color: #fff;
+    font-weight: 500;
 }
-
 
 .whatsapp-float {
     position: fixed;
@@ -95,17 +94,4 @@ footer {
 .whatsapp-float:hover {
     background: #128c7e;
     color: #fff;
-}
-
-
-/* Animations */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
